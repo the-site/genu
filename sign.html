@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Raneem</title>
+    <link rel='icon' href="png/office.png">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--header icon CSS -->
+    <!-- animations CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- font-awsome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- mobile menu CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class='sign-bg'>
+  <!--<header>
+    <div class="pos-f-t fixed-top">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-trans p-4">
+          <h4 class="text-white">Collapsed content</h4>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-trans">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class='navbar-toggler'>☰</span>
+        </button>
+      </nav>
+    </div>
+  </header>-->
+
+  <!-- Button trigger modal -->
+  <div class='navbar-toggler fixed-top '>
+    <span class="m-3 " width='200px' data-toggle="modal" data-target="#exampleModalCenter">
+        ☰
+    </span>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content bg-trans border-0">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+            <div class="list-group bg-black rounded-0 text-center">
+                <a href="index.html" class="list-group-item list-group-item-action bg-black text-yellow rounded-0">Home</a>
+                <a href="#" class="list-group-item list-group-item-action bg-black text-yellow rounded-0">About</a>
+                <a href="#" class="list-group-item list-group-item-action bg-black text-yellow rounded-0">Courses</a>
+                <a href="sign.html" class="list-group-item list-group-item-action bg-black text-yellow rounded-0">register</a>
+            </div>
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+
+  <main role="main">
+
+      <div class="container">
+        <div class="row text-center mt-5">
+          <div class="col-lg-4 col-md-12 text-left pt-1 mt-5">
+            <form enctype='multipart/form-data' class='text-center muted-form' action='https://www.google.com/search' method='GET'>
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='.25s'>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name='q'>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='.5s'>
+                  <input type="email" class="form-control" placeholder="email">
+              </div>
+              <!-- ************** -->
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='.5s'>
+                  <input type='file' id='file' style='display:none;'>
+              </div>
+
+<!-- 
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='.5s'>
+                  <input type='file' id='file' style='display:none;'>
+              </div>
+-->
+              <!-- ************** -->
+
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='.75s'>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+              </div>
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='1s'>
+                <select id="birthPlace" class="form-control">
+                  <option selected disabled>from where</option>
+                  <option>Egypt</option>
+                  <option>russia</option>
+                </select>
+              </div>
+              <div class="form-group wow fadeInLeft" data-wow-duration='2s' data-wow-delay='1.25s'>
+                <select id="livingPlace" class="form-control">
+                  <option selected disabled>where where do you live</option>
+                  <option>Egypt</option>
+                  <option>russia</option>
+                </select>
+              </div>
+              <div class="form-group wow fadeInUp" data-wow-duration='2s' data-wow-delay='1.5s'>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="submit"  class="muted-btn p-au">Submit</button>
+                  <a href='sign.html'  class="muted-btn p-au">sign in instead</a>
+              </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-8 col-md-12 text-center" >
+              <img src="png/full.png" class="img-fluid mt-4 wow fadeInRight" data-wow-duration='2.5s' width='79%'  alt="Responsive image">
+              <!--<img src="png/phone.png" class="img-fluid d-block mt-4 mx-auto wow fadeInRight" data-wow-duration='2.5s' width='20%'  alt="Responsive image">
+              <img src="png/fone-end.png" class="img-fluid d-block mt-4 mx-auto wow fadeInRight" data-wow-duration='2.5s' width='20%'  alt="Responsive image">
+              <img src="png/form.png" class="img-fluid d-block mt-4 mx-auto wow fadeInRight" data-wow-duration='2.5s' width='20%'  alt="Responsive image">-->
+          </div>
+          
+        </div>
+      </div>
+
+
+            
+      <!-- Modal -->
+      <div class="modal fade" id="Started" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content bg-trans">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class='text-white' aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center p-5">
+                  <div class="btn-group bg-trans m-5 btn-hc" role="group" aria-label="Basic example">
+                      <a type="button" class="btn btn-secondary btn-lg" href='#'>Login</a>
+                      <a type="button" class="btn btn-danger btn-lg" href='#'>Register</a>
+                  </div>
+            </div>
+            <!--<div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+
+</main>
+
+
+    <!-- jquery 2.2.4 js-->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.js"></script>
+    <!-- carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--skroller js-->
+    <script src="assets/js/skrollr.min.js"></script>
+    <!--mobile menu js-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--particle s-->
+    <script>
+        new WOW().init();
+    </script>
+    
+    <script>
+      var inputs = document.getElementsByTagName('input');
+
+      for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i];
+        input.addEventListener('input', function() {
+          var bg = this.value ? '0px solid #0000' : '1px solid #fff';
+          this.style.border = bg;
+        });
+      }
+
+      $('select').click(
+        function () {
+            var border = $(this).val() != null ? '0px solid #0000' : '1px solid #fff' ;
+            // console.log();
+            $(this).css('border' , border);
+        }
+      )
+
+      $('input[type="file"]').each(function() {
+        // get label text
+        var label = $(this).parents('.form-group').find('label').text();
+        label = (label) ? label : '<img src="png/camera.png" class="img-fluid" width="60px" alt="Responsive image" id="forfile">';
+        var imgRow = '<div clas="col-2"> ' + label + ' </div>';
+
+        // wrap the file input
+        $(this).wrap('<div class="form-row wow fadeInLeft"></div>');
+        // we will display selected file here
+        $(this).before('<div class="file-selected col-10 text-left p-3"> choose a profile picture </div>');
+                // display label
+        $(this).before('<div class="btn col-2 m-0 p-0">'+label+'</div>');
+
+
+        // file input change listener 
+        $(this).change(function(e){
+            // Get this file input value
+            var val = $(this).val();
+            
+            // Let's only show filename.
+            // By default file input value is a fullpath, something like 
+            // C:\fakepath\Nuriootpa1.jpg depending on your browser.
+            var filename = val.replace(/^.*[\\\/]/, '');
+
+            // Display the filename
+            $(this).siblings('.file-selected').text(filename);
+        });
+    });
+
+    // Open the file browser when our custom button is clicked.
+    $('.form-group .btn').click(function() {
+        $(this).siblings('input[type="file"]').trigger('click');
+    });
+    </script>
+
+</html>
